@@ -9,6 +9,7 @@ const __dirname = path.dirname(__filename);
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/nour-abodeif_portfolio_/'
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
